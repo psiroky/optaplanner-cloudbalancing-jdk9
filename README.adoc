@@ -1,0 +1,19 @@
+= OptaPlanner CloudBalancing HelloWorld app with module-info.java
+
+"Hello World" example showing how to run simple OptaPlanner project which uses module-info.java.
+Third party dependencies are used as automatic modules.
+
+You can run the example on JDK8 with Maven: `mvn clean compile exec:exec`.
+
+== How to run the example with JDK9
+. Make sure JDK9 is installed:
+  * `JAVA_HOME` needs to be set
+
+. Locally install `1.2.0-SNAPSHOT` version of xmlpull and xpp3_min.
+Clone and build this repo: https://github.com/xmlpull-xpp3/xmlpull-xpp3
+
+. Run the prepared script
+```
+$ ./jdk9-auto-modules.sh
+
+```
